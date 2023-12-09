@@ -1,0 +1,21 @@
+.nav {
+  padding: 20px 0;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-item {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  transition: all 0.2s linear;
+}
+
+.nav-item.active {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white;
+  border-width: 2px;
+  padding: 2px 5px;
+}
