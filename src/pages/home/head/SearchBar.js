@@ -1,0 +1,22 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import "./SearchBar.css";
+
+library.add(fas);
+
+function SearchBar() {
+  return (
+    <div className="search">
+      <FontAwesomeIcon icon="fa-bed" />
+      <input placeholder="Where are you going?"></input>
+      <FontAwesomeIcon icon="fa-calendar-days" />
+      <input placeholder="06/24/2022 to 06/24/2022"></input>
+      <FontAwesomeIcon icon="fa-person" />
+      <input placeholder="1 adult - 0 children - 1 room"></input>
+      <button>Search</button>
+    </div>
+  );
+}
+
+export default SearchBar;

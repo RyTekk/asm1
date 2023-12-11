@@ -1,9 +1,10 @@
+import Helper from "../../../ui/Helper";
 import "./Header.css";
 import SearchBar from "./SearchBar";
 
 function Header({ onClick }) {
   return (
-    <div className="header">
+    <Helper className="header">
       <div className="header-content">
         <h1>A lifetime of discounts? It's Genius.</h1>
         <p>
@@ -13,7 +14,7 @@ function Header({ onClick }) {
         <button onClick={onClick}>Sign in / Register</button>
       </div>
       <SearchBar />
-    </div>
+    </Helper>
   );
 }
 

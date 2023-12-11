@@ -1,0 +1,23 @@
+.city {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  height: 200px;
+}
+
+.city-item {
+  position: relative;
+}
+
+.subtext {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+}
+
+img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}

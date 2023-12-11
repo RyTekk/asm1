@@ -1,8 +1,16 @@
-import NavBar from "./NavBar"
+import Body from "./body/Body";
+import Footer from "./foot/Footer";
+import NavBar from "./head/NavBar";
+import SignUp from "./signup/SignUp";
 
 const Home = () => {
   return (
-    <NavBar />
+    <>
+      <NavBar />
+      <Body />
+      <SignUp />
+      <Footer />
+    </>
   );
 };
 

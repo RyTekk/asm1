@@ -1,0 +1,23 @@
+.hotel-type .top-text {
+  margin: 20px 0px;
+  font-weight: bold;
+}
+
+.type-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+}
+
+.type-item img {
+  aspect-ratio: 1 / 1;
+}
+
+.item-name {
+  font-weight: bold;
+}
+
+.item-count {
+  font-weight: 100;
+  font-size: smaller;
+}
