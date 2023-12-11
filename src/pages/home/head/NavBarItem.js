@@ -3,13 +3,14 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import "./NavBarItem.css";
 import Helper from "../../../ui/Helper";
+import navBarData from "./navBar.json";
 
 library.add(fas);
 
-function NavBarItem(props) {
+function NavBarItem() {
   return (
     <Helper className="nav">
-      {props.items.map((item, index) => (
+      {navBarData.map((item, index) => (
         <div key={index} className={`nav-item ${item.active ? "active" : ""}`}>
           <FontAwesomeIcon icon={item.icon} />
           <span>{item.type}</span>

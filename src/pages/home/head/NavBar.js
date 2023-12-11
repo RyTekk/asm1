@@ -4,34 +4,6 @@ import NavBarItem from "./NavBarItem";
 import Header from "./Header";
 import Helper from "../../../ui/Helper";
 
-const DUMMY_NAVBAR = [
-  {
-    type: "Stays",
-    icon: "fa-bed",
-    active: true,
-  },
-  {
-    type: "Flights",
-    icon: "fa-plane",
-    active: false,
-  },
-  {
-    type: "Car rentals",
-    icon: "fa-car",
-    active: false,
-  },
-  {
-    type: "Attractions",
-    icon: "fa-bed",
-    active: false,
-  },
-  {
-    type: "Airport taxis",
-    icon: "fa-taxi",
-    active: false,
-  },
-];
-
 function NavBar() {
   function handleClick() {
     console.log("Clicked");
@@ -46,7 +18,7 @@ function NavBar() {
           <button>Login</button>
         </div>
       </Helper>
-      <NavBarItem items={DUMMY_NAVBAR} />
+      <NavBarItem />
       <Header onClick={handleClick} />
     </div>
   );
