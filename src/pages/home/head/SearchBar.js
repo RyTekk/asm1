@@ -15,7 +15,9 @@ function SearchBar() {
       <input placeholder="06/24/2022 to 06/24/2022"></input>
       <FontAwesomeIcon icon="fa-person" />
       <input placeholder="1 adult - 0 children - 1 room"></input>
-      <button>Search</button>
+      <button onClick={() => (window.location.href = "/search")}>
+        Search
+      </button>
     </Helper>
   );
 }

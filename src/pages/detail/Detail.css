@@ -70,6 +70,10 @@
   grid-gap: 10px;
 }
 
+.photos img {
+  border-radius: 0px;
+}
+
 .info h1 {
   font-size: 24px;
 }

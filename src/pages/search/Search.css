@@ -1,0 +1,183 @@
+.back-home {
+  width: fit-content;
+  margin: 0 auto;
+  display: block;
+}
+
+.back-home:link,
+.back-home:visited,
+.back-home:hover,
+.back-home:active {
+  color: white;
+  text-decoration: none;
+  background-color: #003580;
+  padding: 10px;
+  margin-top: 20px;
+  border-style: none;
+}
+
+.back-home:hover {
+  color: red;
+}
+
+
+.search-root {
+  display: flex;
+  width: 70%;
+  margin-top: 20px;
+}
+
+.search-form {
+  background-color: #febb02;
+  height: fit-content;
+  width: 25%;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.search-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #555555;
+}
+
+.search-form form {
+  padding: 10px;
+}
+
+.search-form button {
+  background-color: #0071c2;
+  color: white;
+  width: 95%;
+  height: 40px;
+  border-style: none;
+  display: block;
+  margin: 0 auto;
+}
+
+.search-des {
+  margin-top: 10px;
+}
+
+.search-des input {
+  width: 100%;
+  height: 30px;
+}
+
+.form-option-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 5px;
+}
+
+.form-option-item input {
+  width: 25%;
+}
+
+.form-option-content {
+  padding: 5px;
+  font-size: 12px;
+  color: #555555;
+}
+
+.search-items-list {
+  width: 75%;
+}
+
+.search-item {
+  position: relative;
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: darkgray;
+  border-radius: 10px;
+  margin: 0px auto 10px 10px;
+}
+
+.search-item .item-info {
+  font-size: 13px;
+}
+
+.search-item .item-info p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.search-item img {
+  width: 15vi;
+  margin: 10px;
+  border-radius: 0px;
+}
+
+.search-item .item-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0671c2;
+}
+
+.search-item .item-tag {
+  width: fit-content;
+  background-color: #008009;
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+  font-weight: 400;
+}
+
+.search-item .item-description {
+  font-weight: 700;
+}
+
+.search-item .free-cancel {
+  color: #008009;
+}
+
+.available {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+  right: 10px;
+  top: 10px;
+  min-width: 20%;
+}
+
+.rate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-rate-text {
+  font-weight: 600;
+}
+
+.item-rate-score {
+  background-color: #003580;
+  color: white;
+  padding: 5px;
+}
+
+.cost {
+  text-align: right;
+}
+
+.cost button {
+  background-color: #0071c2;
+  color: white;
+  font-weight: 700;
+  width: 100%;
+  height: 40px;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.item-price {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.cost-tax {
+  font-size: 12px;
+  color: #91959e;
+}
