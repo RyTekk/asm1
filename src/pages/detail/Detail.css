@@ -1,0 +1,93 @@
+.detail-root {
+  margin-top: 20px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom {
+  display: flex;
+}
+
+.detail {
+  width: 100vi;
+  margin-right: 15px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.nine-night {
+  width: 35vi;
+  padding: 20px;
+  background-color: #ebf3ff;
+  margin-top: 40px;
+}
+
+.content-top {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #555c6d;
+}
+
+.content-detail {
+  font-size: 14px;
+}
+
+.content-price {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.detail-root button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-style: none;
+  font-weight: bold;
+  color: white;
+  background-color: #0071c2;
+}
+
+.nine-night button {
+  width: 100%;
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.info h1 {
+  font-size: 24px;
+}
+
+.address {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.distance {
+  font-weight: 600;
+  color: #1a75c8;
+}
+
+.price {
+  font-weight: 600;
+  color: #358313;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}

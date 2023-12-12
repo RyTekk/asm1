@@ -6,7 +6,7 @@ import SignUp from "./signup/SignUp";
 const Home = () => {
   return (
     <>
-      <NavBar />
+      <NavBar isNavBar={true} />
       <Body />
       <SignUp />
       <Footer />

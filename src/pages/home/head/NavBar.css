@@ -5,19 +5,3 @@
   display: flex;
   flex-direction: column;
 }
-
-.topnavbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.buttons {
-  display: flex;
-  gap: 30px;
-}
-
-.buttons button {
-  border-radius: 0;
-}

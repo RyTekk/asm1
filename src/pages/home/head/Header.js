@@ -1,6 +1,5 @@
 import Helper from "../../../ui/Helper";
 import "./Header.css";
-import SearchBar from "./SearchBar";
 
 function Header({ onClick }) {
   return (
@@ -13,7 +12,6 @@ function Header({ onClick }) {
         </p>
         <button onClick={onClick}>Sign in / Register</button>
       </div>
-      <SearchBar />
     </Helper>
   );
 }

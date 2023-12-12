@@ -1,0 +1,27 @@
+.topnavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.topnavbar a:link,
+.topnavbar a:visited,
+.topnavbar a:hover,
+.topnavbar a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.topnavbar a:hover {
+  color: red;
+}
+
+.buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.buttons button {
+  border-radius: 0;
+}
